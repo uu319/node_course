@@ -1,0 +1,17 @@
+"mongoose": "^5.6.9",
+"nodemon": "^1.19.1",
+"passport": "^0.4.0",
+"passport-google-oauth20": "^2.0.0"
+
+"concurrently"
+
+Note: 
+[1] When specified, "proxy" in package.json must be a string.
+
+[1] Instead, the type of "proxy" was "object".
+
+[1] Either remove "proxy" from package.json, or make it a string.
+
+Solution:
+npm install http-proxy-middleware --save
+read 58
